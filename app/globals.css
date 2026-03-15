@@ -5,11 +5,20 @@
   --foreground: #171717;
 }
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  /* ── Warna Tema ────────────────────────────────────────────────────────── */
+  --color-tema: #050a1b;    
+  --color-second: #181d35;
+  --color-card: #020618;
+  --color-text: #f8fafc; 
 }
 
 @media (prefers-color-scheme: dark) {
